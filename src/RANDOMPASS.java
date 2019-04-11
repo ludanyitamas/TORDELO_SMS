@@ -67,6 +67,7 @@ public class RANDOMPASS {
         } else if (specC == true && kisB == true && nagyB == true && szam == true) {
             merge = SPECIAL_CHARS + NUMERIC + ALPHA_CAPS + ALPHA;
             result = genaralo(merge, result, len);
+            System.out.println("valami");
         }
 
         return result;

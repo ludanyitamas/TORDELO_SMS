@@ -29,7 +29,6 @@ public class NewClass {
         String url = "https://nagios.aeek.hu/sms/csv.php";
         String urlParameters = "1,36307812462,siker";
         byte[] postData = urlParameters.getBytes(StandardCharsets.UTF_8);
-        System.out.println("anyád");
 
         
         try {
